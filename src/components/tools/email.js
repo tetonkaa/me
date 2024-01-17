@@ -78,9 +78,12 @@ const Contact = (props) => {
     >
       <div className="container mx-auto  px-4 md:px-6">
         <h2 className="text-3xl font-bold tracking-tighter text-center mb-8">
-          <span className="redFont">Contact</span> Us
+          contact me
         </h2>
-        <form onSubmit={handleSubmit} className="grid gap-4 max-w-md mx-auto">
+        <form
+          onSubmit={handleSubmit}
+          className="grid gap-4 max-w-md mx-auto secondaryBG"
+        >
           <Input
             placeholder="Your Name"
             required

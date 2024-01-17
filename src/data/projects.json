@@ -1,0 +1,30 @@
+[
+  {
+    "name": "d3fine",
+    "live": "https://www.d3fine.me/",
+    "git": "https://github.com/tetonkaa/d3fine",
+    "image": "../../photos/ProjectScreenShots/d3fine.png",
+    "description": "React app made to allow users to create personality assessments. Full CRUD / Firebase Authentication."
+  },
+  {
+    "name": "Stop Jockin",
+    "live": "https://stopjockin.netlify.app",
+    "git": "https://github.com/tetonkaa/StopJockinV2",
+    "image": "../../photos/ProjectScreenShots/StopJockin.png",
+    "description": "Stop Jockin is a platform for New Orleans local business owner , 'Joc' , used to display many of his business ventures! This app was created with React, utilizing Tailwind css for styling."
+  },
+  {
+    "name": "SVGeezy",
+    "live": "https://svgeezy-production.up.railway.app/dashboard",
+    "git": "https://github.com/tetonkaa/svgeezy",
+    "image": "../../photos/ProjectScreenShots/SVGeezy.png",
+    "description": "Svgeezy is a Scalable Vector Graphic (SVG) gallery created through an Angular Framework. The goal for this app is to amass a collection of SVG images with direct svg pathing for devs to use for their projects. "
+  },
+  {
+    "name": "ShipvsShip",
+    "live": "https://tetonkaa.github.io/ShipVsShip/",
+    "git": "https://github.com/tetonkaa/ShipVsShip",
+    "image": "../../photos/ProjectScreenShots/ShipVShip.png",
+    "description": "Topdown player vs player space shooter made with GML. Controls: Player1- WSAD for movement, R for primary fire and space for secondary. Player2- Directional Keys for movement, primary fire with M."
+  }
+]

@@ -48,14 +48,14 @@ export default function Home() {
     <section className="flex flex-col min-h-screen">
       <header className="flex items-center h-16 px-4 primaryBG shrink-0 md:px-6">
         <nav className="font-medium flex flex-row items-center gap-5 text-sm lg:gap-6">
-          <Link className="text-white" href="#about">
-            About
-          </Link>
           <Link className="text-white" href="#projects">
-            Projects
+            projects
           </Link>
           <Link className="text-white" href="#contact">
-            Contact
+            contact
+          </Link>
+          <Link className="text-white" href="/angelpuenteResumeJ2024.pdf">
+            resume
           </Link>
         </nav>
       </header>
@@ -83,18 +83,16 @@ export default function Home() {
             }}
             width="200"
           />
-          <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">
-            About Me
-          </h2>
+          <hr></hr>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
             Software Engineer with significant experience in the insurance and
             finance industry. Skilled in customer service, excelling through
             standardized work processes, and having an aptitude for learning new
             coding languages.
           </p>
-          <h3 className="text-xl font-bold tracking-tighter sm:text-2xl md:text-3xl">
-            Skills
-          </h3>
+          <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">
+            skills
+          </h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
             React, Node.js, MongoDB, Express.js, JavaScript, HTML, CSS, Angular,
             Next.js, and more
@@ -105,8 +103,9 @@ export default function Home() {
           id="projects"
         >
           <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">
-            Projects
+            projects
           </h2>
+          <hr></hr>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {projectGrid}
           </div>

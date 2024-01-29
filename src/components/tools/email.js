@@ -86,7 +86,7 @@ const Contact = (props) => {
           <Input
             placeholder="Your Name"
             required
-            style={{ color: "black" }}
+            style={{ color: "white" }}
             name="name"
             type="text"
             value={formData.name}
@@ -96,6 +96,7 @@ const Contact = (props) => {
             placeholder="Your Email"
             required
             name="email"
+            style={{ color: "white" }}
             type="email"
             value={formData.email}
             onChange={handleChange}
@@ -104,6 +105,7 @@ const Contact = (props) => {
             placeholder="Summary of your project..."
             required
             name="message"
+            style={{ color: "white" }}
             value={formData.message}
             onChange={handleChange}
           />

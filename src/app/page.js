@@ -54,7 +54,7 @@ export default function Home() {
           <Link className="text-white" href="#contact">
             contact
           </Link>
-          <Link className="text-white" href="/angelpuenteResumeJ2024.pdf">
+          <Link className="text-white" href="/angelpuenteResumeF2024.pdf">
             resume
           </Link>
         </nav>

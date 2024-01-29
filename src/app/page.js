@@ -61,7 +61,7 @@ export default function Home() {
       </header>
       <main className="flex min-h-[calc(100vh_-_theme(spacing.16))] secondaryBG flex-1 flex-col gap-4 p-4 md:gap-8 md:p-10">
         <section className="flex flex-col items-center space-y-4 text-center">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white">
             Angel Puente
           </h1>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
@@ -90,7 +90,7 @@ export default function Home() {
             standardized work processes, and having an aptitude for learning new
             coding languages.
           </p>
-          <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">
+          <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-white">
             skills
           </h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
@@ -102,7 +102,7 @@ export default function Home() {
           className="flex flex-col items-center space-y-4 text-center"
           id="projects"
         >
-          <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">
+          <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-white">
             projects
           </h2>
           <hr></hr>

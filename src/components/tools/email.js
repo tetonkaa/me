@@ -19,7 +19,6 @@ const Contact = (props) => {
     email: "",
     name: "",
     message: "",
-    budget: "",
     loading: false,
     show: false,
     alertmessage: "",
@@ -33,7 +32,7 @@ const Contact = (props) => {
       from_name: formData.email,
       user_name: formData.name,
       to_name: contactConfig.USER_EMAIL,
-      message: formData.message + " $" + formData.budget,
+      message: formData.message,
     };
 
     emailjs
@@ -77,7 +76,7 @@ const Contact = (props) => {
       name="section4"
     >
       <div className="container mx-auto  px-4 md:px-6">
-        <h2 className="text-3xl font-bold tracking-tighter text-center mb-8">
+        <h2 className="text-3xl font-bold tracking-tighter text-center mb-8 text-white">
           contact me
         </h2>
         <form
@@ -87,6 +86,7 @@ const Contact = (props) => {
           <Input
             placeholder="Your Name"
             required
+            style={{ color: "black" }}
             name="name"
             type="text"
             value={formData.name}

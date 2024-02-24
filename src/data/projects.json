@@ -2,7 +2,6 @@
   {
     "name": "d3fine",
     "live": "https://www.d3fine.me/",
-    "git": "https://github.com/tetonkaa/d3fine",
     "image": "../../photos/ProjectScreenShots/d3fine.png",
     "description": "React app made to allow users to create personality assessments. Full CRUD / Firebase Authentication."
   },

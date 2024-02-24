@@ -14,6 +14,12 @@
     "description": "Stop Jockin is a platform for New Orleans local business owner , 'Joc' , used to display many of his business ventures! This app was created with React, utilizing Tailwind css for styling."
   },
   {
+    "name": "Tara Fit",
+    "live": "https://tarafit.net",
+    "image": "../../photos/ProjectScreenShots/TaraFit.png",
+    "description": "Tarafit.net is a mobile-focused app created for personal trainer Tara Farquhar. This frontend was developed with Next.js, and features a custom CMS interface for blog posting (handled by MongoDB and Payload CMS)."
+  },
+  {
     "name": "SVGeezy",
     "live": "https://svgeezy-production.up.railway.app/dashboard",
     "git": "https://github.com/tetonkaa/svgeezy",

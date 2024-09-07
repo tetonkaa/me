@@ -6,6 +6,13 @@
     "description": "React app made to allow users to create personality assessments. Full CRUD / Firebase Authentication."
   },
   {
+    "name": "Zen Portal",
+    "live": "https://thezenportal.netlify.app/",
+    "git": "https://github.com/ViceDG/vdg-site",
+    "image": "../../assets/ProjectScreenShots/zenportal.png",
+    "description": "Zen Portal is a lite meditation app created with react-native-expo. This app is allows users to enjoy high-resolution audio/visuals while timing their meditation sessions. "
+  },
+  {
     "name": "Stop Jockin",
     "live": "https://stopjockin.netlify.app",
     "git": "https://github.com/tetonkaa/StopJockinV2",
